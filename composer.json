@@ -1,5 +1,5 @@
 {
-    "name": "uam/amazon_search-bundle",
+    "name": "uam/amazon-search-bundle",
     "type": "symfony-bundle",
     "description": "Amazon search page as a Symfony 2.x bundle",
     "keywords": ["Symfony", "Bundle", "AWS ECommerce Service", "ECS", "Amazon Product Advertising API", "amazon"],
