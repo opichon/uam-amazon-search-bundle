@@ -1,0 +1,3 @@
+_uam_amazon_search:
+    resource: "@UAMAmazonSearchBundle/Controller/SearchController.php"
+    type: annotation

@@ -1,0 +1,22 @@
+{
+    "name": "uam/amazon_search-bundle",
+    "type": "symfony-bundle",
+    "description": "Amazon search page as a Symfony 2.x bundle",
+    "keywords": ["Symfony", "Bundle", "AWS ECommerce Service", "ECS", "Amazon Product Advertising API", "amazon"],
+    "homepage": "https://gitweb.united-asian.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Olivier Pichon",
+            "email": "op@united-asian.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "uam/aws-ecs-bundle": "0.1.*"
+    },
+    "autoload": {
+        "psr-0": { "UAM\\Bundle\\AmazonSearchBundle": "" }
+    },
+    "target-dir": "UAM/Bundle/AmazonSearchBundle"
+}

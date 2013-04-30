@@ -1,0 +1,6 @@
+{% extends "UAMAmazonSearchBundle::layout.html.twig" %}
+
+{% block uam_aws_ecs_content %}
+    <pre>{{ stores |json_encode }}</pre>
+    {{ form_widget(form) }}
+{% endblock %}
