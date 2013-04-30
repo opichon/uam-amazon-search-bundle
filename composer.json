@@ -18,5 +18,10 @@
     "autoload": {
         "psr-0": { "UAM\\Bundle\\AmazonSearchBundle": "" }
     },
-    "target-dir": "UAM/Bundle/AmazonSearchBundle"
+    "target-dir": "UAM/Bundle/AmazonSearchBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
 }
